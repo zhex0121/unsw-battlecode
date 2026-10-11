@@ -6,9 +6,9 @@ This repository presents selected technical work from my participation in UNSW B
 
 My work involved strategy design, C++ agent development, experimental evaluation, and iteration on a collaborative game-playing system.
 
-This is an individual portfolio, not a mirror of the team's private repository. It focuses on selected investigations, the evidence available for them, and the limitations of the conclusions.
+This is an individual portfolio, not a mirror of the team's private repository. It presents selected strategy investigations, supporting evidence, and the final competition bot.
 
-## Selected Work
+## Selected Investigations
 
 ### 1. Safer Stride: End-State Safety in Multi-Step Movement
 
@@ -28,15 +28,21 @@ The investigation measured how often the intended positioning and escape behavio
 
 [Read the case study](case-studies/queen-fallback.md)
 
-### 3. Final Bot Integration: Reconstructing the `one21` Submission
+## Final Competition Bot
 
-**Focus:** Version tracking, server-profile reconstruction, and integration of the final live bot into the team's main development branch.
+### `one21` — Final Live Submission
 
-PR #62 documents a five-commit sequence tracking the `one15` through `one21` versions. Its description identifies `one21` as submission `21857`, the last upload before the competition deadline, and reports that the reconstruction script produced a `main.cpp` identical to the uploaded source.
+The final competition bot represents the culmination of strategy development, implementation, testing, and iteration throughout UNSW Battlecode 2026.
 
-The pull request remains open in the supplied record. This case study therefore distinguishes the already reported submission and reconstruction evidence from the proposed merge into `main`.
+The submitted version, `one21` (submission `21857`), brought together the team's bot logic and server-specific configuration for the final competition submission. The available submission record identifies it as the last upload before the competition deadline.
 
-[Read the case study](case-studies/final-bot-integration.md)
+The source includes the C++ agent implementation and supporting strategy logic developed across the project. The final bot is presented here as an engineering artifact in its own right, alongside the focused investigations above.
+
+- [Final bot source](evidence/final-bot/main.cpp)
+- [Server profile](evidence/final-bot/server_profile.txt)
+- [Source-generation script](evidence/final-bot/server_bot.py)
+
+The source and configuration files are provided to make the final implementation inspectable. The linked files should correspond to the recorded `one21` submission; the source-generation script is supporting evidence of how that submitted source was reproduced.
 
 ## Experimental Approach
 
@@ -44,22 +50,12 @@ The case studies distinguish intended mechanism behaviour, measured gameplay out
 
 [Read the evaluation-methods note](methodology/evaluation-methods.md)
 
-## Collaboration and Attribution
-
-This portfolio documents my individual contributions within a collaborative UNSW Battlecode 2026 project. It distinguishes my own design, implementation, testing, and analysis from shared team contributions and AI-assisted development.
-
-The portfolio includes links to the relevant source code, issues, pull requests, experimental artifacts, maps, and replays to support inspection and reproducibility.
-
 ## Evidence and Reproducibility
 
-The repository provides selected source code, experimental records, maps, replays, and technical documentation from the project. These materials are organized to make the relationship between strategy changes, test configurations, observed results, and the final bot easier to inspect.
-
-The final live bot discussed here is `one21`, submission `21857`. Its source reconstruction and configuration are documented alongside the relevant version history.
+This portfolio includes selected source code, experimental records, and technical documentation from the project. These materials are organized to make strategy implementation, evaluation, and the final competition artifact easier to inspect.
 
 The portfolio is an individual technical record of work within a collaborative project, not a claim of sole authorship of the complete bot or every artifact.
 
 ## Limitations
 
-These case studies document engineering investigations in a competitive game environment. Their results are specific to the tested configurations and should not be interpreted as proof of general algorithmic superiority.
-
-Negative, mixed, or inconclusive findings are included where they are necessary to represent the evidence accurately.
+The reported experimental results are specific to their tested configurations and should not be interpreted as proof of general algorithmic superiority. The final bot reflects collaborative development under competition constraints; the included materials identify selected implementation and evaluation evidence rather than claiming that every component was independently developed or exhaustively validated.
