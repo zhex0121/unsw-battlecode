@@ -18,7 +18,9 @@ Potential failure modes included becoming trapped in the corner and escaping thr
 
 ## My Contribution
 
-I proposed the strategy hypothesis and participated in its tracking and evaluation through the team's development workflow.
+I proposed the corner-and-portal fallback hypothesis and participated in tracking and evaluating the idea through the team's development workflow.
+
+The implementation introduced QG_SAFEZONE and QG_CORNER configuration switches, recorded in commit e7c380f. The available evidence establishes the strategy proposal and its development history, but does not by itself establish that I personally authored every part of the implementation or evaluation.
 
 ## Evaluation Method
 
@@ -34,9 +36,9 @@ The two test sets served different purposes and are reported separately.
 
 ## Results
 
-In the 320-pair outcome comparison, the baseline won 25 games that the candidate lost, while the candidate won 37 games that the baseline lost. The resulting net difference was −12 wins for the candidate.
+In the 320-pair outcome comparison, the baseline won 25 games that the candidate lost, while the candidate won 37 games that the baseline lost. The resulting net difference was +12 wins for the candidate.
 
-The supplied noise estimate was approximately 11.3 net wins per standard deviation. The observed difference was therefore about −1.06 standard deviations, insufficient to establish a reliable overall performance difference from this comparison alone.
+The supplied noise estimate was approximately 11.3 net wins per standard deviation. The observed difference was therefore about +1.06 standard deviations, insufficient to establish a reliable overall performance difference from this comparison alone.
 
 In the separate 96-game mechanism evaluation:
 
@@ -61,6 +63,4 @@ The result illustrates the importance of evaluating both overall outcomes and th
 
 - Original investigation: Issue #11, “Queen fallback: circle near a portal in a kelp corner”
 - Implementation reference: commit `e7c380f`, which added the QG_SAFEZONE and QG_CORNER toggles
-- Additional evidence: [link to permitted test reports and implementation changes]
-
-This was a collaborative project. Individual implementation and analysis contributions should be attributed separately where applicable.
+- Supporting evidence: [Implementation excerpts](../evidence/queen-fallback/implementation.md)
