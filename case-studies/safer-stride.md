@@ -14,12 +14,6 @@ Earlier testing had indicated that enabling stride increased multi-step movement
 
 The hypothesis was that checking the final tile's safety and escape options would reduce dangerous movement outcomes while retaining much of stride's economic benefit.
 
-## My Contribution
-
-My specific contributions included: [identify the decisions, implementation work, test design, analysis, and review that I personally performed].
-
-The design was collaborative. The issue discussion records additional input from teammates, including requirements concerning enemy reach, unseen tiles, and more conservative movement for the queen. Code implementation and other contributors' work should be attributed separately.
-
 ## Method
 
 The candidate added a `STRIDE_SAFE_END` switch, disabled by default during the initial evaluation. The base and candidate versions were identified by their respective commit hashes.
@@ -80,6 +74,3 @@ The switch was ultimately shipped as part of the team's active bot, but deployme
 - PR #35: Candidate implementation
 - Base commit: `9a4f3fc440d768b237ee9bc9b78665a03f53c39a`
 - Candidate commit: `82407e034cc4adb516c6a96a719110af8f02e20a`
-- Relevant replay and test artifacts: [add links to artifacts permitted for public release]
-
-This was collaborative engineering work. Individual design, implementation, testing, and analysis contributions should be distinguished explicitly.
