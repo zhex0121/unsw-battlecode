@@ -42,4 +42,10 @@ Reported differences are therefore interpreted in the context of sample size, te
 
 ## Reproducibility and Access
 
-Commit references, test configurations, and links to available evidence are provided in each case study where publication is permitted. Some original implementation details and artifacts remain in a private collaborative repository and may not be independently accessible to readers.
+Relevant source code, configuration files, test artifacts, maps, and replays are approved for public release and are included or linked where relevant.
+
+For each case study, the evidence should identify the candidate and baseline versions, test configuration, evaluation metrics, and available records needed to interpret the results.
+
+A reader should be able to distinguish direct measurements from replay-based observations, and implementation verification from evidence of strategic improvement.
+
+Source-level reproduction does not automatically establish binary reproducibility, and results obtained on a limited set of maps or seeds should not be generalized beyond the tested conditions without further validation.
