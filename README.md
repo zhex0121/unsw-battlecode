@@ -46,17 +46,17 @@ The case studies distinguish intended mechanism behaviour, measured gameplay out
 
 ## Collaboration and Attribution
 
-This portfolio documents selected individual contributions within a collaborative project. It distinguishes my own work from shared implementation, teammate contributions, and AI-assisted development.
+This portfolio documents my individual contributions within a collaborative UNSW Battlecode 2026 project. It distinguishes my own design, implementation, testing, and analysis from shared team contributions and AI-assisted development.
 
-[Read the attribution note](CONTRIBUTIONS.md)
-
-[Read the attribution note](CONTRIBUTIONS.md)
+The portfolio includes links to the relevant source code, issues, pull requests, experimental artifacts, maps, and replays to support inspection and reproducibility.
 
 ## Evidence and Reproducibility
 
-Each case study identifies relevant issue numbers, pull requests, commit references, test configurations, and reported measurements where available.
+The repository provides selected source code, experimental records, maps, replays, and technical documentation from the project. These materials are organized to make the relationship between strategy changes, test configurations, observed results, and the final bot easier to inspect.
 
-The original project repository is private. This portfolio does not reproduce the entire repository or imply that every original artifact is publicly available. Any additional source code, logs, maps, or replays will be published only where redistribution is permitted.
+The final live bot discussed here is `one21`, submission `21857`. Its source reconstruction and configuration are documented alongside the relevant version history.
+
+The portfolio is an individual technical record of work within a collaborative project, not a claim of sole authorship of the complete bot or every artifact.
 
 ## Limitations
 
