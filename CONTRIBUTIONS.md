@@ -25,10 +25,10 @@ AI assistance is not treated as evidence that I independently authored all gener
 
 ## Shared Code and Publication
 
-This repository contains selected documentation rather than a complete copy of the team's private repository.
+The relevant shared source code, test artifacts, maps, and replays are approved for public release and may be included in this portfolio.
 
-Shared source code, test artifacts, maps, and replays will be published only where I have the necessary permission or other applicable rights to redistribute them. References to private material do not imply that public readers can access it.
+The repository presents these materials as part of a collaborative project. Public availability does not imply sole authorship: individual responsibilities are attributed using issues, commits, pull requests, test records, and other available evidence.
 
 ## Evidence Standard
 
-I aim to make claims about my contributions traceable to relevant issue discussions, commits, pull requests, test records, or other available evidence. Where individual responsibility cannot be established confidently, I describe the work as collaborative rather than assigning sole credit.
+Claims about personal contributions should be traceable to relevant source changes, issue discussions, experimental records, or integration work. Where a result reflects team-wide work, it is described as a collaborative outcome rather than an individual achievement.
